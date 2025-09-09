@@ -19,9 +19,9 @@ class _VirtualCardState extends State<VirtualCard> {
       borderRadius: BorderRadius.circular(20),
     ),
     behavior: SnackBarBehavior.floating,
-    content: Row(
+    content: const Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: const [
+      children: [
         Icon(
           Icons.done,
           color: Colors.white,
@@ -141,11 +141,11 @@ class _VirtualCardState extends State<VirtualCard> {
               const SizedBox(
                 width: 20,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 80,
                 width: 200,
                 child: Column(
-                  children: const [
+                  children: [
                     Padding(
                       padding: EdgeInsets.only(top: 20),
                       child: Align(
@@ -182,7 +182,7 @@ class _VirtualCardState extends State<VirtualCard> {
                 width: 20,
               ),
               Switch(
-                activeColor: const Color.fromARGB(255, 255, 129, 129),
+                activeThumbColor: const Color.fromARGB(255, 255, 129, 129),
                 value: switchs,
                 onChanged: (value) {
                   setState(() {

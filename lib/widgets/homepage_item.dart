@@ -24,8 +24,8 @@ class HomePageItem extends StatelessWidget {
               borderRadius: BorderRadius.circular(30),
               color: Colors.white,
             ),
-            child: Column(
-              children: const [
+            child: const Column(
+              children: [
                 DateTotal(date: 'Jan 11', tprice: 1200, p: false),
                 TransactionItem(
                   url: 'assets/logos/tc.png',

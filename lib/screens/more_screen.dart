@@ -12,13 +12,13 @@ class MoreScreen extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(height: 75),
-            Padding(
-              padding: const EdgeInsets.only(
+            const Padding(
+              padding: EdgeInsets.only(
                 left: 20,
                 top: 15,
               ),
               child: Row(
-                children: const [
+                children: [
                   CircleAvatar(
                     radius: 25,
                     backgroundColor: Color.fromARGB(255, 224, 255, 249),
@@ -55,10 +55,10 @@ class MoreScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20.0, right: 20),
+            const Padding(
+              padding: EdgeInsets.only(left: 20.0, right: 20),
               child: Row(
-                children: const [
+                children: [
                   Text(
                     'Incoming',
                     style: TextStyle(
@@ -130,14 +130,14 @@ class MoreScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(20.0),
+            const Padding(
+              padding: EdgeInsets.all(20.0),
               child: SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   // mainAxisSize: MainAxisSize.min,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
+                  children: [
                     LogoWithText(
                       imageUrl: 'assets/logos/sadapay.png',
                       text: 'Welcome To \nSadaPay',
@@ -178,10 +178,10 @@ class MoreScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, top: 15),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, top: 15),
               child: Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.shortcut_outlined,
                     color: Color.fromARGB(255, 255, 129, 129),
@@ -216,10 +216,10 @@ class MoreScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, top: 15),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, top: 15),
               child: Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.call_outlined,
                     color: Color.fromARGB(255, 255, 129, 129),
@@ -254,10 +254,10 @@ class MoreScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, top: 15, bottom: 15),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, top: 15, bottom: 15),
               child: Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.speaker_notes_outlined,
                     color: Color.fromARGB(255, 255, 129, 129),
@@ -276,10 +276,10 @@ class MoreScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, top: 15, bottom: 15),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, top: 15, bottom: 15),
               child: Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.verified_user_outlined,
                     color: Color.fromARGB(255, 255, 129, 129),
@@ -298,10 +298,10 @@ class MoreScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, top: 15, bottom: 15),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, top: 15, bottom: 15),
               child: Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.description_outlined,
                     color: Color.fromARGB(255, 255, 129, 129),
@@ -320,10 +320,10 @@ class MoreScreen extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, top: 15, bottom: 15),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, top: 15, bottom: 15),
               child: Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.description_outlined,
                     color: Color.fromARGB(255, 255, 129, 129),
@@ -348,10 +348,10 @@ class MoreScreen extends StatelessWidget {
                 thickness: 2,
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, bottom: 15),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, bottom: 15),
               child: Row(
-                children: const [
+                children: [
                   Icon(
                     Icons.logout_outlined,
                     color: Color.fromARGB(255, 255, 129, 129),

@@ -22,9 +22,9 @@ class _ContainerHeadingState extends State<ContainerHeading> {
       borderRadius: BorderRadius.circular(20),
     ),
     behavior: SnackBarBehavior.floating,
-    content: Row(
+    content: const Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: const [
+      children: [
         Icon(
           Icons.done,
           color: Colors.white,
@@ -86,13 +86,13 @@ class _ContainerHeadingState extends State<ContainerHeading> {
                   ),
                   TextButton(
                     style: ButtonStyle(
-                      overlayColor: MaterialStateProperty.all(Colors.grey[200]),
+                      overlayColor: WidgetStateProperty.all(Colors.grey[200]),
                     ),
                     onPressed: () {
                       ScaffoldMessenger.of(context).showSnackBar(snackBar);
                     },
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Icon(
                           Icons.file_copy,
                           color: Color.fromARGB(255, 255, 129, 129),

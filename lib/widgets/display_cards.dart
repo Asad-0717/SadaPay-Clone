@@ -113,8 +113,8 @@ class DisplayCards extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                     color: const Color.fromARGB(255, 0, 174, 255),
                   ),
-                  child: Column(
-                    children: const [
+                  child: const Column(
+                    children: [
                       Padding(
                         padding: EdgeInsets.all(8.0),
                         child: Align(
