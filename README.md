@@ -1,0 +1,1 @@
+SadaPay is a Pakistan-based digital banking platform founded in 2019, designed to simplify money management and eliminate traditional banking hassles. Through its mobile app, users can open an account in minutes using just their CNIC and a selfie, and get both virtual and physical Mastercard debit cards for local and international use.
